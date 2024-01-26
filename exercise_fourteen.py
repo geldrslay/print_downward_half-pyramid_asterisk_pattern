@@ -1,10 +1,9 @@
 # Print a downward Half-Pyramid Pattern of Star (asterisk)
 
-# Defining function
-def half_pyramid_star(rows):
-    for i in range (rows,0,-1):
-        for j in range (0, i):
-            print ('*', end=" ")
-        print ("\n")
+# Determining rows
+rows = 5
 
-half_pyramid_star(5)
+# Defining function
+for i in range (rows,0,-1):
+    print (' * ' * i, end=" ")
+    print ("\n")
